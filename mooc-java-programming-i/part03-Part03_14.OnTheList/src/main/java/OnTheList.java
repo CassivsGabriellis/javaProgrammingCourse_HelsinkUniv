@@ -1,4 +1,3 @@
-
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -16,6 +15,16 @@ public class OnTheList {
 
             list.add(input);
         }
-
+        
+        System.out.print("Search for? ");
+        String name = scanner.nextLine();
+        
+        boolean found = list.contains(name);
+        if (found) {
+            System.out.println(name + " was found!");
+        } else {
+            System.out.println(name + " was not found!");
+        }
+        
     }
 }
