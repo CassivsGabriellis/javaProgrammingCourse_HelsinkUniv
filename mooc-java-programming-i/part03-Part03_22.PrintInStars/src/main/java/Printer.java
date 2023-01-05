@@ -9,6 +9,18 @@ public class Printer {
 
     public static void printArrayInStars(int[] array) {
         // Write some code in here
+        for (int i = 0; i < array.length; i++) {
+            int num = array[i];
+            int star = 0;
+            while (star < num) {
+                System.out.print("*");
+                star++;
+            }
+            System.out.println("");
+        }
+        
+        
+        
     }
 
 }
