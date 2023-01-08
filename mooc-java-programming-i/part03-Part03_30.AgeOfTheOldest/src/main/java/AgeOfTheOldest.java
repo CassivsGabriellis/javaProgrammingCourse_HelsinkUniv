@@ -19,6 +19,7 @@ public class AgeOfTheOldest {
                 oldestAge = age;
             }
         }
+        
         System.out.println("Age of the oldest: " + oldestAge);
     }
 }
