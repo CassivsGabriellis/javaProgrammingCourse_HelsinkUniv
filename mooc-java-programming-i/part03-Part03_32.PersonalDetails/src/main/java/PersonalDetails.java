@@ -25,6 +25,7 @@ public class PersonalDetails {
                 longestName = name;
             }
         }
+        
         double averageYears = (double) totalYears / numEntries;
         
         System.out.println("Longest name: " + longestName);
